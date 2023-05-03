@@ -1,0 +1,11 @@
+train: /home/marwa/Self Driving Caryolov8/train/images
+val: /home/marwa/Self Driving Caryolov8/val/images
+nc: 11
+names: ['biker', 'car', 'pedestrian', 'trafficLight', 'trafficLight-Green', 'trafficLight-GreenLeft', 'trafficLight-Red', 'trafficLight-RedLeft', 'trafficLight-Yellow', 'trafficLight-YellowLeft', 'truck']
+
+# roboflow:
+#   workspace: brad-dwyer
+#   project: self-driving-car-archived
+#   version: 3
+#   license: MIT
+#   url: https://universe.roboflow.com/brad-dwyer/self-driving-car-archived/dataset/3
